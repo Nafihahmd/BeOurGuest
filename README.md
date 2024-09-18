@@ -1,13 +1,12 @@
-# Marriage Invitation Template
-(Creating a website to share wedding details and venue information with guests, and to serve as a lasting memory of the special day.)
-
-You are warmly invited to our wedding!
+# You are warmly invited to our wedding!
 
 **Date**: 17 Nov 2024\
 **Time**: 4:00 PM to 7:30 PM\
 **Venue**: Palace Auditorium, Maranchery\
-**Location**: [Click Here](https://g.co/kgs/8zQY1BH)
+**Location**: [Click Here](https://maps.app.goo.gl/s7KnEVHME78edd3p8)
 
-___
 
-We look forward to celebrating with you!
+## We look forward to celebrating with you!
+
+#### Wedding Invitation Template
+(Creating a website to share wedding details and venue information with guests, and to serve as a lasting memory of the special day.)
