@@ -7,5 +7,7 @@ You are warmly invited to our wedding!
 **Time**: 4:00 PM to 7:30 PM\
 **Venue**: Palace Auditorium, Maranchery\
 **Location**: [Click Here](https://g.co/kgs/8zQY1BH)
+
 ___
+
 We look forward to celebrating with you!
