@@ -11,4 +11,4 @@
 #### Wedding Invitation Template
 (Creating a website to share wedding details and venue information with guests, and to serve as a lasting memory of the special day.)
 
-Using [ZeroFour](https://html5up.net/zerofour) template from html5up.
+N.B: Using [ZeroFour](https://html5up.net/zerofour) template from html5up.
