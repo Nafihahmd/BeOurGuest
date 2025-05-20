@@ -194,8 +194,9 @@
                 } else {
                     secondsLeft = (targetDate - now.getTime()) / 1000;
                 }
-
-                if (secondsLeft > 0) {
+                /* No need to check for NaN, because the date is already passed */
+                // if (secondsLeft > 0) {
+                if (true) {
                     days = parseInt(secondsLeft / 86400, 10);
                     secondsLeft = secondsLeft % 86400;
 
