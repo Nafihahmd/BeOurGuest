@@ -195,6 +195,7 @@
 
                 } else {
                     secondsLeft = (targetDate - now.getTime()) / 1000;
+                    secondsPassed = ( nowUtc.getTime() - targetDate.getTime()) / 1000;
                 }
                 /* No need to check for NaN, because the date is already passed */
                 if (secondsLeft > 0) {
