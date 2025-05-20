@@ -147,6 +147,7 @@
             now,
             nowUtc,
             secondsLeft,
+            secondsPassed,
             days,
             hours,
             minutes,
@@ -190,13 +191,13 @@
                     nowUtc = new Date(now.getFullYear(), now.getMonth(), now.getDate(),
                         now.getHours(), now.getMinutes(), now.getSeconds());
                     secondsLeft = (targetDate - nowUtc.getTime()) / 1000;
+                    secondsPassed = ( nowUtc.getTime() - targetDate.getTime()) / 1000;
 
                 } else {
                     secondsLeft = (targetDate - now.getTime()) / 1000;
                 }
                 /* No need to check for NaN, because the date is already passed */
-                // if (secondsLeft > 0) {
-                if (true) {
+                if (secondsLeft > 0) {
                     days = parseInt(secondsLeft / 86400, 10);
                     secondsLeft = secondsLeft % 86400;
 
@@ -205,6 +206,16 @@
 
                     minutes = parseInt(secondsLeft / 60, 10);
                     seconds = parseInt(secondsLeft % 60, 10);
+                } 
+                else if (secondsPassed > 0) {
+                    days = parseInt(secondsPassed / 86400, 10);
+                    secondsPassed = secondsPassed % 86400;
+
+                    hours = parseInt(secondsPassed / 3600, 10);
+                    secondsPassed = secondsPassed % 3600;
+
+                    minutes = parseInt(secondsPassed / 60, 10);
+                    seconds = parseInt(secondsPassed % 60, 10);
                 } else {
                     days = 0;
                     hours = 0;
